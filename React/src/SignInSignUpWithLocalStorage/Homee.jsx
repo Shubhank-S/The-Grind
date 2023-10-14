@@ -1,6 +1,6 @@
 import React from "react";
 
-function Home({ name }) {
+function Homee({ name }) {
   const logout = () => {
     localStorage.removeItem("signup");
     alert("Logout SuccesFully");
@@ -18,4 +18,4 @@ function Home({ name }) {
   );
 }
 
-export default Home;
+export default Homee;

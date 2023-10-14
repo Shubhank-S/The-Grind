@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 function Home() {
   const navigate = useNavigate();
@@ -18,6 +19,11 @@ function Home() {
   };
   return (
     <>
+      <div>
+        <Helmet>
+          <title>Home</title>
+        </Helmet>
+      </div>
       <div>Home</div>
       <button onClick={handleClick}>Go to about</button>
     </>

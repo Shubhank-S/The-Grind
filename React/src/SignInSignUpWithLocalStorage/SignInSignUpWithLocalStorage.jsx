@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import Home from "./Home";
+import Homee from "./Homee";
 import "./SignInSignUpWithLocalStorage.css";
 
 function SignInSignUpWithLocalStorage() {
@@ -29,7 +29,7 @@ function SignInSignUpWithLocalStorage() {
   return (
     <>
       {showHome ? (
-        <Home name={localName} />
+        <Homee name={localName} />
       ) : (
         <>
           <input type="text" ref={name} placeholder="Enter name..." />
