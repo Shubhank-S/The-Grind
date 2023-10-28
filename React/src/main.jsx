@@ -6,6 +6,7 @@ import SignInSignUpWithLocalStorage from "./SignInSignUpWithLocalStorage/SignInS
 import Parent from "./ChangeParentStateInChild/Parent.jsx";
 import PassingValueByRouting from "./PassingValueByRouting/PassingValueByRouting.jsx";
 import ReactHelmet from "./React-Helmet/ReactHelmet.jsx";
+import CustomPagination from "./CustomPagination/CustomPagination";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -13,6 +14,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* <SignInSignUpWithLocalStorage /> */}
     {/* <Parent /> */}
     {/* <PassingValueByRouting /> */}
-    <ReactHelmet />
+    {/* <ReactHelmet /> */}
+    <CustomPagination />
   </React.StrictMode>
 );
